@@ -1,0 +1,9 @@
+mkdir 建文件夹
+cd 进入文件夹
+git init 把这个文件夹变成Git可管理的仓库
+.git 用来跟踪和管理版本库，默认隐藏文件
+git add.  .表示文件夹下全部目录都提交
+git status 查看下现在的状态
+git commit -m "这里面写你的注释"  把文件提交的本地仓库
+
+$ ssh-keygen -t rsa -C "youremail@example.com" 创建SSH KEY
